@@ -21,6 +21,8 @@
 		01730D76187D1FF60007FB2A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01730D58187D1FF60007FB2A /* UIKit.framework */; };
 		01730D7E187D1FF60007FB2A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 01730D7C187D1FF60007FB2A /* InfoPlist.strings */; };
 		01730D80187D1FF60007FB2A /* FakeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 01730D7F187D1FF60007FB2A /* FakeTests.m */; };
+		01730D8B187D37BA0007FB2A /* CameraOverlayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 01730D8A187D37BA0007FB2A /* CameraOverlayViewController.m */; };
+		018478AA187E856400F5BB95 /* 拍照背景图.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 018478A9187E856400F5BB95 /* 拍照背景图.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,9 @@
 		01730D7B187D1FF60007FB2A /* FakeTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FakeTests-Info.plist"; sourceTree = "<group>"; };
 		01730D7D187D1FF60007FB2A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		01730D7F187D1FF60007FB2A /* FakeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FakeTests.m; sourceTree = "<group>"; };
+		01730D89187D37BA0007FB2A /* CameraOverlayViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CameraOverlayViewController.h; sourceTree = "<group>"; };
+		01730D8A187D37BA0007FB2A /* CameraOverlayViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CameraOverlayViewController.m; sourceTree = "<group>"; };
+		018478A9187E856400F5BB95 /* 拍照背景图.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "拍照背景图.jpg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,11 +117,14 @@
 		01730D5A187D1FF60007FB2A /* Fake */ = {
 			isa = PBXGroup;
 			children = (
+				018478A9187E856400F5BB95 /* 拍照背景图.jpg */,
 				01730D63187D1FF60007FB2A /* CYAppDelegate.h */,
 				01730D64187D1FF60007FB2A /* CYAppDelegate.m */,
 				01730D66187D1FF60007FB2A /* Main.storyboard */,
 				01730D69187D1FF60007FB2A /* CYViewController.h */,
 				01730D6A187D1FF60007FB2A /* CYViewController.m */,
+				01730D89187D37BA0007FB2A /* CameraOverlayViewController.h */,
+				01730D8A187D37BA0007FB2A /* CameraOverlayViewController.m */,
 				01730D6C187D1FF60007FB2A /* Images.xcassets */,
 				01730D5B187D1FF60007FB2A /* Supporting Files */,
 			);
@@ -230,6 +238,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				01730D6D187D1FF60007FB2A /* Images.xcassets in Resources */,
+				018478AA187E856400F5BB95 /* 拍照背景图.jpg in Resources */,
 				01730D5F187D1FF60007FB2A /* InfoPlist.strings in Resources */,
 				01730D68187D1FF60007FB2A /* Main.storyboard in Resources */,
 			);
@@ -252,6 +261,7 @@
 			files = (
 				01730D65187D1FF60007FB2A /* CYAppDelegate.m in Sources */,
 				01730D61187D1FF60007FB2A /* main.m in Sources */,
+				01730D8B187D37BA0007FB2A /* CameraOverlayViewController.m in Sources */,
 				01730D6B187D1FF60007FB2A /* CYViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -382,6 +392,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Fake/Fake-Prefix.pch";
 				INFOPLIST_FILE = "Fake/Fake-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -395,6 +406,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Fake/Fake-Prefix.pch";
 				INFOPLIST_FILE = "Fake/Fake-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -461,6 +473,7 @@
 				01730D85187D1FF60007FB2A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		01730D86187D1FF60007FB2A /* Build configuration list for PBXNativeTarget "FakeTests" */ = {
 			isa = XCConfigurationList;
@@ -469,6 +482,7 @@
 				01730D88187D1FF60007FB2A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

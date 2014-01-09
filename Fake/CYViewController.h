@@ -8,6 +8,9 @@
 
 #import <UIKit/UIKit.h>
 
-@interface CYViewController : UIViewController
+@interface CYViewController : UIViewController<UIImagePickerControllerDelegate,UINavigationControllerDelegate>
+@property (nonatomic,retain)UIImagePickerController *picker;
+
+- (IBAction)takePicture:(id)sender;
 
 @end
