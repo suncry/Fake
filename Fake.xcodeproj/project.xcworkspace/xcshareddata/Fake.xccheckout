@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>F6C15E00-21D2-4A7A-937F-1F27EA860C42</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Fake</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>AB390864-5F98-4321-AC72-28D9D46FF0A0</key>
+		<string>https://github.com/suncry/Fake.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Fake.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>AB390864-5F98-4321-AC72-28D9D46FF0A0</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/suncry/Fake.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>AB390864-5F98-4321-AC72-28D9D46FF0A0</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>AB390864-5F98-4321-AC72-28D9D46FF0A0</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Fake</string>
+		</dict>
+	</array>
+</dict>
+</plist>

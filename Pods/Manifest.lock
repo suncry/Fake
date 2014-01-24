@@ -1,0 +1,30 @@
+PODS:
+  - ASIHTTPRequest (1.8.1):
+    - ASIHTTPRequest/ASIWebPageRequest
+    - ASIHTTPRequest/CloudFiles
+    - ASIHTTPRequest/S3
+    - Reachability
+  - ASIHTTPRequest/ASIWebPageRequest (1.8.1):
+    - Reachability
+  - ASIHTTPRequest/CloudFiles (1.8.1):
+    - Reachability
+  - ASIHTTPRequest/S3 (1.8.1):
+    - Reachability
+  - Reachability (3.1.1)
+  - SBJson (3.2)
+  - SDWebImage (3.5.2):
+    - SDWebImage/Core
+  - SDWebImage/Core (3.5.2)
+
+DEPENDENCIES:
+  - ASIHTTPRequest
+  - SBJson (~> 3.2.0)
+  - SDWebImage
+
+SPEC CHECKSUMS:
+  ASIHTTPRequest: 162783e0cd71bdd3ff1ceed0cd5fa9505e0116a8
+  Reachability: be4883bb93f31e38266ae3365e5600a317aae735
+  SBJson: abc2bf2baef456d5dae213f9826fe2b6fdf19861
+  SDWebImage: fe7ce01ae4e0a884d168f59c9dd82d35baf8429e
+
+COCOAPODS: 0.29.0

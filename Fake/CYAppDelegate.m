@@ -7,12 +7,17 @@
 //
 
 #import "CYAppDelegate.h"
-
+#import "CYcallInIngViewController.h"
+#import "CYViewController.h"
 @implementation CYAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+//    UIStoryboard *stryBoard=[UIStoryboard storyboardWithName:@"Main" bundle:nil];
+//    self.window.rootViewController=[stryBoard instantiateInitialViewController];
+//
+
     return YES;
 }
 							
@@ -42,5 +47,17 @@
 {
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
 }
+//推送完 执行的事件
+- (void)application:(UIApplication *)application didReceiveLocalNotification:(UILocalNotification *)notification{
+    NSLog(@"接电话了！！！");
+
+    UIStoryboard *storyBoard=[UIStoryboard storyboardWithName:@"Main" bundle:nil];
+    self.window.rootViewController = [storyBoard instantiateViewControllerWithIdentifier:@"CYcallInIngViewController"];
+
+    
+    
+}
+
+
 
 @end
