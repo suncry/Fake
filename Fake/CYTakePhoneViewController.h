@@ -13,7 +13,7 @@
     IBOutlet UIPickerView *timePicker;
     IBOutlet UITextView *nameTextView;
     IBOutlet UILabel *nameLablePlaceHolder;
-
+    IBOutlet UIButton *startBtn;
     //来电时间
     int min;
 }

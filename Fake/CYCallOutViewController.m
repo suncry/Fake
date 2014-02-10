@@ -27,6 +27,9 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view.
+    startBtn.layer.masksToBounds = YES;
+    startBtn.layer.cornerRadius = 5;
+
 }
 
 - (void)didReceiveMemoryWarning
@@ -56,6 +59,13 @@
 shouldChangeTextInRange:(NSRange)range
  replacementText:(NSString *)text
 {
+    //禁止换行...实现 done 按钮
+    if ([text isEqualToString:@"\n"])
+    {
+        [textView resignFirstResponder];
+        return NO;
+    }
+
     //判断加上输入的字符，是否超过界限
     NSString *str = [NSString stringWithFormat:@"%@%@", textView.text, text];
     if (str.length > 20)

@@ -13,6 +13,7 @@
     IBOutlet UILabel *nameLable;
     IBOutlet UILabel *minLable;
     IBOutlet UILabel *secLable;
+    IBOutlet UIImageView *backgroundImgView;
 
 }
 

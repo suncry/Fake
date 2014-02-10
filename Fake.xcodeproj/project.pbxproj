@@ -42,13 +42,30 @@
 		01B36AAC18866107001D4A5A /* CYCallOutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 01B36AAB18866107001D4A5A /* CYCallOutViewController.m */; };
 		01B36AB218866871001D4A5A /* CYCallOutIngViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 01B36AB118866871001D4A5A /* CYCallOutIngViewController.m */; };
 		01B36AB518866926001D4A5A /* PushNotification.m in Sources */ = {isa = PBXBuildFile; fileRef = 01B36AB418866926001D4A5A /* PushNotification.m */; };
+		01B44BE11894B86500635976 /* libMobClickLibrary.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 01B44BDE1894B86500635976 /* libMobClickLibrary.a */; };
+		01B44BE21894B86500635976 /* libMobClickLibrary_armv6.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 01B44BDF1894B86500635976 /* libMobClickLibrary_armv6.a */; };
+		01B44BE51894C0B200635976 /* CYStartPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 01B44BE41894C0B200635976 /* CYStartPageViewController.m */; };
+		01B44BF11894C17700635976 /* dot_white.png in Resources */ = {isa = PBXBuildFile; fileRef = 01B44BEA1894C17700635976 /* dot_white.png */; };
+		01B44BF21894C17700635976 /* dot_pur.png in Resources */ = {isa = PBXBuildFile; fileRef = 01B44BEB1894C17700635976 /* dot_pur.png */; };
+		01B44BF31894C17700635976 /* 引导01.png in Resources */ = {isa = PBXBuildFile; fileRef = 01B44BEC1894C17700635976 /* 引导01.png */; };
+		01B44BF41894C17700635976 /* 引导02.png in Resources */ = {isa = PBXBuildFile; fileRef = 01B44BED1894C17700635976 /* 引导02.png */; };
+		01B44BF51894C17700635976 /* 引导03.png in Resources */ = {isa = PBXBuildFile; fileRef = 01B44BEE1894C17700635976 /* 引导03.png */; };
+		01B44BF61894C17700635976 /* 引导04.png in Resources */ = {isa = PBXBuildFile; fileRef = 01B44BEF1894C17700635976 /* 引导04.png */; };
+		01B44BFB1894C20300635976 /* 引导01_960.png in Resources */ = {isa = PBXBuildFile; fileRef = 01B44BF71894C20300635976 /* 引导01_960.png */; };
+		01B44BFC1894C20300635976 /* 引导02_960.png in Resources */ = {isa = PBXBuildFile; fileRef = 01B44BF81894C20300635976 /* 引导02_960.png */; };
+		01B44BFD1894C20300635976 /* 引导03_960.png in Resources */ = {isa = PBXBuildFile; fileRef = 01B44BF91894C20300635976 /* 引导03_960.png */; };
+		01B44BFE1894C20300635976 /* 引导04_960.png in Resources */ = {isa = PBXBuildFile; fileRef = 01B44BFA1894C20300635976 /* 引导04_960.png */; };
+		01B44C001894CE0500635976 /* 浏览器页面（960）.png in Resources */ = {isa = PBXBuildFile; fileRef = 01B44BFF1894CE0500635976 /* 浏览器页面（960）.png */; };
+		01B44C041894CE1200635976 /* 001(960).png in Resources */ = {isa = PBXBuildFile; fileRef = 01B44C011894CE1200635976 /* 001(960).png */; };
+		01B44C051894CE1200635976 /* 002(960).png in Resources */ = {isa = PBXBuildFile; fileRef = 01B44C021894CE1200635976 /* 002(960).png */; };
+		01B44C061894CE1200635976 /* 003(960).png in Resources */ = {isa = PBXBuildFile; fileRef = 01B44C031894CE1200635976 /* 003(960).png */; };
+		01B44C081894E76900635976 /* 关于我们960.png in Resources */ = {isa = PBXBuildFile; fileRef = 01B44C071894E76900635976 /* 关于我们960.png */; };
+		01B44C0A1894E78600635976 /* 关于我们1136.png in Resources */ = {isa = PBXBuildFile; fileRef = 01B44C091894E78600635976 /* 关于我们1136.png */; };
 		01D3E1C41890D06300897AC6 /* MyRing.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 01D3E1C31890D06300897AC6 /* MyRing.mp3 */; };
 		01D3E1C71890F32A00897AC6 /* CYcallInIngViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 01D3E1C61890F32A00897AC6 /* CYcallInIngViewController.m */; };
 		01F1D80518923E0A00666224 /* RecommendationAPPCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 01F1D80418923E0A00666224 /* RecommendationAPPCell.m */; };
 		01F1D83A189241AB00666224 /* CYAppTopViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 01F1D839189241AB00666224 /* CYAppTopViewController.m */; };
 		01FA8EE1189256AE00CDA526 /* setting@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 01FA8EE0189256AE00CDA526 /* setting@2x.png */; };
-		01FA8EE41892574B00CDA526 /* 关于我们960.png in Resources */ = {isa = PBXBuildFile; fileRef = 01FA8EE21892574B00CDA526 /* 关于我们960.png */; };
-		01FA8EE51892574B00CDA526 /* 关于我们1136.png in Resources */ = {isa = PBXBuildFile; fileRef = 01FA8EE31892574B00CDA526 /* 关于我们1136.png */; };
 		01FA8EE81892596B00CDA526 /* CYFeedBackViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 01FA8EE71892596B00CDA526 /* CYFeedBackViewController.m */; };
 		01FA8EEB18925E0000CDA526 /* CYAboutUsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 01FA8EEA18925E0000CDA526 /* CYAboutUsViewController.m */; };
 		709DBCBC4DFF496088F1E296 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 57E42C723AEA4FCEB69357B0 /* libPods.a */; };
@@ -112,6 +129,27 @@
 		01B36AB118866871001D4A5A /* CYCallOutIngViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYCallOutIngViewController.m; sourceTree = "<group>"; };
 		01B36AB318866926001D4A5A /* PushNotification.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PushNotification.h; sourceTree = "<group>"; };
 		01B36AB418866926001D4A5A /* PushNotification.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PushNotification.m; sourceTree = "<group>"; };
+		01B44BDE1894B86500635976 /* libMobClickLibrary.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libMobClickLibrary.a; sourceTree = "<group>"; };
+		01B44BDF1894B86500635976 /* libMobClickLibrary_armv6.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libMobClickLibrary_armv6.a; sourceTree = "<group>"; };
+		01B44BE01894B86500635976 /* MobClick.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MobClick.h; sourceTree = "<group>"; };
+		01B44BE31894C0B200635976 /* CYStartPageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYStartPageViewController.h; sourceTree = "<group>"; };
+		01B44BE41894C0B200635976 /* CYStartPageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYStartPageViewController.m; sourceTree = "<group>"; };
+		01B44BEA1894C17700635976 /* dot_white.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dot_white.png; sourceTree = "<group>"; };
+		01B44BEB1894C17700635976 /* dot_pur.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dot_pur.png; sourceTree = "<group>"; };
+		01B44BEC1894C17700635976 /* 引导01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "引导01.png"; sourceTree = "<group>"; };
+		01B44BED1894C17700635976 /* 引导02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "引导02.png"; sourceTree = "<group>"; };
+		01B44BEE1894C17700635976 /* 引导03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "引导03.png"; sourceTree = "<group>"; };
+		01B44BEF1894C17700635976 /* 引导04.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "引导04.png"; sourceTree = "<group>"; };
+		01B44BF71894C20300635976 /* 引导01_960.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "引导01_960.png"; sourceTree = "<group>"; };
+		01B44BF81894C20300635976 /* 引导02_960.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "引导02_960.png"; sourceTree = "<group>"; };
+		01B44BF91894C20300635976 /* 引导03_960.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "引导03_960.png"; sourceTree = "<group>"; };
+		01B44BFA1894C20300635976 /* 引导04_960.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "引导04_960.png"; sourceTree = "<group>"; };
+		01B44BFF1894CE0500635976 /* 浏览器页面（960）.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "浏览器页面（960）.png"; sourceTree = "<group>"; };
+		01B44C011894CE1200635976 /* 001(960).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "001(960).png"; sourceTree = "<group>"; };
+		01B44C021894CE1200635976 /* 002(960).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "002(960).png"; sourceTree = "<group>"; };
+		01B44C031894CE1200635976 /* 003(960).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "003(960).png"; sourceTree = "<group>"; };
+		01B44C071894E76900635976 /* 关于我们960.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "关于我们960.png"; sourceTree = "<group>"; };
+		01B44C091894E78600635976 /* 关于我们1136.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "关于我们1136.png"; sourceTree = "<group>"; };
 		01D3E1C31890D06300897AC6 /* MyRing.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = MyRing.mp3; sourceTree = "<group>"; };
 		01D3E1C51890F32A00897AC6 /* CYcallInIngViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYcallInIngViewController.h; sourceTree = "<group>"; };
 		01D3E1C61890F32A00897AC6 /* CYcallInIngViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYcallInIngViewController.m; sourceTree = "<group>"; };
@@ -120,8 +158,6 @@
 		01F1D838189241AB00666224 /* CYAppTopViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYAppTopViewController.h; sourceTree = "<group>"; };
 		01F1D839189241AB00666224 /* CYAppTopViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYAppTopViewController.m; sourceTree = "<group>"; };
 		01FA8EE0189256AE00CDA526 /* setting@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "setting@2x.png"; sourceTree = "<group>"; };
-		01FA8EE21892574B00CDA526 /* 关于我们960.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "关于我们960.png"; sourceTree = "<group>"; };
-		01FA8EE31892574B00CDA526 /* 关于我们1136.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "关于我们1136.png"; sourceTree = "<group>"; };
 		01FA8EE61892596B00CDA526 /* CYFeedBackViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYFeedBackViewController.h; sourceTree = "<group>"; };
 		01FA8EE71892596B00CDA526 /* CYFeedBackViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYFeedBackViewController.m; sourceTree = "<group>"; };
 		01FA8EE918925E0000CDA526 /* CYAboutUsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYAboutUsViewController.h; sourceTree = "<group>"; };
@@ -136,8 +172,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				016402231891FFF60033A368 /* AudioToolbox.framework in Frameworks */,
+				01B44BE21894B86500635976 /* libMobClickLibrary_armv6.a in Frameworks */,
 				01730D57187D1FF60007FB2A /* CoreGraphics.framework in Frameworks */,
 				01730D59187D1FF60007FB2A /* UIKit.framework in Frameworks */,
+				01B44BE11894B86500635976 /* libMobClickLibrary.a in Frameworks */,
 				01730D55187D1FF60007FB2A /* Foundation.framework in Frameworks */,
 				709DBCBC4DFF496088F1E296 /* libPods.a in Frameworks */,
 			);
@@ -237,6 +275,7 @@
 		01B36AA1188646FD001D4A5A /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				01B44BDD1894B86500635976 /* UMAnalytics_Sdk_2.2.1.OpenUDID */,
 				01F1D80218923E0100666224 /* RecommendationAPPCell */,
 				01B36AB318866926001D4A5A /* PushNotification.h */,
 				01B36AB418866926001D4A5A /* PushNotification.m */,
@@ -269,6 +308,8 @@
 				01FA8EE71892596B00CDA526 /* CYFeedBackViewController.m */,
 				01FA8EE918925E0000CDA526 /* CYAboutUsViewController.h */,
 				01FA8EEA18925E0000CDA526 /* CYAboutUsViewController.m */,
+				01B44BE31894C0B200635976 /* CYStartPageViewController.h */,
+				01B44BE41894C0B200635976 /* CYStartPageViewController.m */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -284,10 +325,12 @@
 		01B36AAF18866154001D4A5A /* Images */ = {
 			isa = PBXGroup;
 			children = (
-				01FA8EE21892574B00CDA526 /* 关于我们960.png */,
-				01FA8EE31892574B00CDA526 /* 关于我们1136.png */,
+				01B44BE61894C14400635976 /* StartPage */,
+				01B44C071894E76900635976 /* 关于我们960.png */,
+				01B44C091894E78600635976 /* 关于我们1136.png */,
 				01FA8EE0189256AE00CDA526 /* setting@2x.png */,
 				01640227189212CE0033A368 /* 浏览器页面.png */,
+				01B44BFF1894CE0500635976 /* 浏览器页面（960）.png */,
 				01B36A9718863688001D4A5A /* ring_1@2x.png */,
 				01B36A991886375F001D4A5A /* ring_2@2x.png */,
 				01B36A9F18863985001D4A5A /* ring_3@2x.png */,
@@ -298,10 +341,56 @@
 				0117118718852F650027ABFA /* 001.png */,
 				0117118818852F650027ABFA /* 002.png */,
 				0117118918852F650027ABFA /* 003.png */,
+				01B44C011894CE1200635976 /* 001(960).png */,
+				01B44C021894CE1200635976 /* 002(960).png */,
+				01B44C031894CE1200635976 /* 003(960).png */,
 				0117118518851DB80027ABFA /* BlackBackground.png */,
 				018478A9187E856400F5BB95 /* 拍照背景图.jpg */,
 			);
 			name = Images;
+			sourceTree = "<group>";
+		};
+		01B44BDD1894B86500635976 /* UMAnalytics_Sdk_2.2.1.OpenUDID */ = {
+			isa = PBXGroup;
+			children = (
+				01B44BDE1894B86500635976 /* libMobClickLibrary.a */,
+				01B44BDF1894B86500635976 /* libMobClickLibrary_armv6.a */,
+				01B44BE01894B86500635976 /* MobClick.h */,
+			);
+			path = UMAnalytics_Sdk_2.2.1.OpenUDID;
+			sourceTree = "<group>";
+		};
+		01B44BE61894C14400635976 /* StartPage */ = {
+			isa = PBXGroup;
+			children = (
+				01B44BE81894C15400635976 /* 1136 */,
+				01B44BE71894C14E00635976 /* 960 */,
+			);
+			name = StartPage;
+			sourceTree = "<group>";
+		};
+		01B44BE71894C14E00635976 /* 960 */ = {
+			isa = PBXGroup;
+			children = (
+				01B44BF71894C20300635976 /* 引导01_960.png */,
+				01B44BF81894C20300635976 /* 引导02_960.png */,
+				01B44BF91894C20300635976 /* 引导03_960.png */,
+				01B44BFA1894C20300635976 /* 引导04_960.png */,
+			);
+			name = 960;
+			sourceTree = "<group>";
+		};
+		01B44BE81894C15400635976 /* 1136 */ = {
+			isa = PBXGroup;
+			children = (
+				01B44BEA1894C17700635976 /* dot_white.png */,
+				01B44BEB1894C17700635976 /* dot_pur.png */,
+				01B44BEC1894C17700635976 /* 引导01.png */,
+				01B44BED1894C17700635976 /* 引导02.png */,
+				01B44BEE1894C17700635976 /* 引导03.png */,
+				01B44BEF1894C17700635976 /* 引导04.png */,
+			);
+			name = 1136;
 			sourceTree = "<group>";
 		};
 		01F1D80218923E0100666224 /* RecommendationAPPCell */ = {
@@ -395,25 +484,39 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				01B44C041894CE1200635976 /* 001(960).png in Resources */,
+				01B44BF51894C17700635976 /* 引导03.png in Resources */,
+				01B44C081894E76900635976 /* 关于我们960.png in Resources */,
+				01B44BF21894C17700635976 /* dot_pur.png in Resources */,
 				01171193188532F40027ABFA /* main_takePic@2x.png in Resources */,
 				0117118618851DB80027ABFA /* BlackBackground.png in Resources */,
 				01730D6D187D1FF60007FB2A /* Images.xcassets in Resources */,
+				01B44BF61894C17700635976 /* 引导04.png in Resources */,
 				01640228189212CE0033A368 /* 浏览器页面.png in Resources */,
-				01FA8EE41892574B00CDA526 /* 关于我们960.png in Resources */,
+				01B44BFB1894C20300635976 /* 引导01_960.png in Resources */,
+				01B44BF31894C17700635976 /* 引导01.png in Resources */,
 				01171194188532F40027ABFA /* main_callOut@2x.png in Resources */,
-				01FA8EE51892574B00CDA526 /* 关于我们1136.png in Resources */,
+				01B44C0A1894E78600635976 /* 关于我们1136.png in Resources */,
+				01B44BF11894C17700635976 /* dot_white.png in Resources */,
 				0117118B18852F650027ABFA /* 002.png in Resources */,
 				01D3E1C41890D06300897AC6 /* MyRing.mp3 in Resources */,
+				01B44C061894CE1200635976 /* 003(960).png in Resources */,
 				01171191188532F40027ABFA /* ring_4@2x.png in Resources */,
+				01B44C051894CE1200635976 /* 002(960).png in Resources */,
+				01B44BFE1894C20300635976 /* 引导04_960.png in Resources */,
 				01B36A9A1886375F001D4A5A /* ring_2@2x.png in Resources */,
 				018478AA187E856400F5BB95 /* 拍照背景图.jpg in Resources */,
+				01B44BF41894C17700635976 /* 引导02.png in Resources */,
 				0117118A18852F650027ABFA /* 001.png in Resources */,
 				0117118C18852F650027ABFA /* 003.png in Resources */,
+				01B44BFD1894C20300635976 /* 引导03_960.png in Resources */,
 				01730D5F187D1FF60007FB2A /* InfoPlist.strings in Resources */,
 				01B36A9818863688001D4A5A /* ring_1@2x.png in Resources */,
 				01B36AA018863985001D4A5A /* ring_3@2x.png in Resources */,
+				01B44BFC1894C20300635976 /* 引导02_960.png in Resources */,
 				01171192188532F40027ABFA /* main_callIn@2x.png in Resources */,
 				01FA8EE1189256AE00CDA526 /* setting@2x.png in Resources */,
+				01B44C001894CE0500635976 /* 浏览器页面（960）.png in Resources */,
 				01730D68187D1FF60007FB2A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -478,6 +581,7 @@
 				01B36AAC18866107001D4A5A /* CYCallOutViewController.m in Sources */,
 				01D3E1C71890F32A00897AC6 /* CYcallInIngViewController.m in Sources */,
 				01730D61187D1FF60007FB2A /* main.m in Sources */,
+				01B44BE51894C0B200635976 /* CYStartPageViewController.m in Sources */,
 				01730D6B187D1FF60007FB2A /* CYViewController.m in Sources */,
 				016402211891FD3C0033A368 /* CYIsCallInLineViewController.m in Sources */,
 				01F1D83A189241AB00666224 /* CYAppTopViewController.m in Sources */,
@@ -608,13 +712,17 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				CODE_SIGN_IDENTITY = "iPhone Developer: 杨 蔡 (9KY4ZK8V89)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Fake/Fake-Prefix.pch";
 				INFOPLIST_FILE = "Fake/Fake-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/cy/Desktop/Fake/Fake/UMAnalytics_Sdk_2.2.1.OpenUDID,
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "5B4EDAAE-6EA4-40FB-86C0-A8F4BF5D7E15";
+				PROVISIONING_PROFILE = "296682DD-A960-4CE9-BBDC-679936CE44BB";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -625,13 +733,17 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				CODE_SIGN_IDENTITY = "iPhone Developer: 杨 蔡 (9KY4ZK8V89)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Fake/Fake-Prefix.pch";
 				INFOPLIST_FILE = "Fake/Fake-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/cy/Desktop/Fake/Fake/UMAnalytics_Sdk_2.2.1.OpenUDID,
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "5B4EDAAE-6EA4-40FB-86C0-A8F4BF5D7E15";
+				PROVISIONING_PROFILE = "296682DD-A960-4CE9-BBDC-679936CE44BB";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;

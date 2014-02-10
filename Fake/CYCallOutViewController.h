@@ -11,6 +11,8 @@
 {
     IBOutlet UITextView *nameTextView;
     IBOutlet UILabel *nameLablePlaceHolder;
+    IBOutlet UIButton *startBtn;
+
 }
 @property (nonatomic,retain)NSString *name;
 

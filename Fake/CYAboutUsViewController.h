@@ -9,5 +9,8 @@
 #import <UIKit/UIKit.h>
 
 @interface CYAboutUsViewController : UIViewController
+{
+    IBOutlet UIImageView *_backgroundImgView;
+}
 @property (nonatomic,retain)UILabel *visonLable;
 @end

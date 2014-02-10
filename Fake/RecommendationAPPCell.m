@@ -36,8 +36,10 @@
         self.appImageView = [[UIImageView alloc]initWithFrame:CGRectMake(11, 15, 50, 50)];
         [self addSubview:self.appImageView];
         self.downloadBtn = [[UIButton alloc]initWithFrame:CGRectMake(263, 24, 44, 21)];
-        
+        self.downloadBtn.layer.masksToBounds = YES;
+        self.downloadBtn.layer.cornerRadius = 5;
         [self.downloadBtn setTitle:@"下载" forState:UIControlStateNormal];
+        [self.downloadBtn setTitleEdgeInsets:UIEdgeInsetsMake(2, 2, 2, 2)];
         [self.downloadBtn setTitleColor:[UIColor darkGrayColor] forState:UIControlStateNormal];
         [[self.downloadBtn layer] setBorderWidth:1.0f];
         [[self.downloadBtn layer] setBorderColor:[UIColor blackColor].CGColor];
@@ -46,7 +48,7 @@
         [self addSubview:self.downloadBtn];
         
         UILabel *lineLable = [[UILabel alloc]initWithFrame:CGRectMake(0, 79, 320, 1)];
-        lineLable.backgroundColor = [UIColor darkGrayColor];
+        lineLable.backgroundColor = [UIColor lightGrayColor];
         [self addSubview:lineLable];
     }
     return self;

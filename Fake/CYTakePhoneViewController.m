@@ -27,6 +27,21 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view.
+//    startBtn.frame = CGRectMake(35, [self.view bounds].size.height - 100, 250, 50);
+
+    startBtn.layer.masksToBounds = YES;
+    startBtn.layer.cornerRadius = 5;
+    
+//    timePicker.frame = CGRectMake(35, [self.view bounds].size.height - 100, 250, 50);
+//    if (IOS_VERSION_7_OR_ABOVE) {
+////        NSLog(@"IOS_VERSION_7_OR_ABOVE");
+//    } else {
+//        NSLog(@"NOT IOS_VERSION_7_OR_ABOVE");
+//        startBtn.frame = CGRectMake(35, 400, 250, 50);
+//        NSLog(@" startBtn.frame 改变了");
+//    }
+    
+    
     min = 1;
 //    [timePicker selectedRowInComponent:0]
 //    timePicker.showsSelectionIndicator = NO;
@@ -196,6 +211,13 @@
 shouldChangeTextInRange:(NSRange)range
  replacementText:(NSString *)text
 {
+    //禁止换行...实现 done 按钮
+    if ([text isEqualToString:@"\n"])
+    {
+        [textView resignFirstResponder];
+        return NO;
+    }
+
     //判断加上输入的字符，是否超过界限
     NSString *str = [NSString stringWithFormat:@"%@%@", textView.text, text];
     if (str.length > 20)

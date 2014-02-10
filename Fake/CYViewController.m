@@ -24,6 +24,11 @@
 	// Do any additional setup after loading the view, typically from a nib.
     [self setupMenuButton];
     [self startAnimation];
+    
+    
+//    UILabel *moreLable = [[UILabel alloc]initWithFrame:CGRectMake(0, [self.view bounds].size.height - 88, 320, 88)];
+//    moreLable.text = @"更多假装,敬请期待";
+//    [self.view addSubview:moreLable];
 
 }
 - (void)didReceiveMemoryWarning
@@ -60,7 +65,9 @@
 //        [self.navigationController.navigationBar setTintColor:[UIColor whiteColor]];
         
     } else {
-        NSLog(@"NOT IOS_VERSION_7_OR_ABOVE");
+//        NSLog(@"NOT IOS_VERSION_7_OR_ABOVE");
+        [self.navigationController.navigationBar setTintColor:[UIColor colorWithRed:72/255.0f green:11/255.0f blue:104/255.0f alpha:1.0f]];
+
     }
     
     

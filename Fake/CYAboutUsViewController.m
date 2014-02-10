@@ -27,6 +27,12 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view.
+    if ([self.view bounds].size.height < 568)
+    {
+        [_backgroundImgView setImage:[UIImage imageNamed:@"关于我们960"]];
+    }
+    
+    
     self.visonLable = [[UILabel alloc]initWithFrame:CGRectMake(0, [self.view bounds].size.height - 100, 320, 20)];
 
     self.visonLable.backgroundColor = [UIColor clearColor];

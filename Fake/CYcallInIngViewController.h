@@ -7,11 +7,15 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <AVFoundation/AVFoundation.h>
 
 @interface CYcallInIngViewController : UIViewController
 {
     IBOutlet UILabel *nameLable;
+    IBOutlet UIImageView *backgroundImgView;
 }
+@property(nonatomic,retain)AVAudioPlayer *ring;
+
 - (IBAction)takePhone:(id)sender;
 - (IBAction)back:(id)sender;
 

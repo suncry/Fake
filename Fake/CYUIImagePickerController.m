@@ -30,6 +30,13 @@
     //覆盖的VIEW
     UIView * myCameraOverlayView = [[UIView alloc]initWithFrame:CGRectMake(0, 0, 320, [self.view bounds].size.height)];
     UIImageView *backgroundImageView = [[UIImageView alloc]initWithImage:[UIImage imageNamed:@"浏览器页面"]];
+    
+    if ([self.view bounds].size.height < 568)
+    {
+        [backgroundImageView setImage:[UIImage imageNamed:@"浏览器页面（960）"]];
+    }
+
+    
     backgroundImageView.frame = CGRectMake(0, 0, 320, [self.view bounds].size.height);
     [myCameraOverlayView addSubview:backgroundImageView];
     
@@ -52,6 +59,16 @@
         self.showsCameraControls = NO;
         self.allowsEditing = YES;
         self.cameraOverlayView = myCameraOverlayView;
+        //设置闪光灯模式
+        /*
+         typedef NS_ENUM(NSInteger, UIImagePickerControllerCameraFlashMode) {
+         UIImagePickerControllerCameraFlashModeOff  = -1,
+         UIImagePickerControllerCameraFlashModeAuto = 0,
+         UIImagePickerControllerCameraFlashModeOn   = 1
+         };
+         */
+        self.cameraFlashMode = UIImagePickerControllerCameraFlashModeOff;
+
         //改为后置摄像头
         self.cameraDevice = UIImagePickerControllerCameraDeviceRear;
         NSArray *temp_MediaTypes = [UIImagePickerController availableMediaTypesForSourceType:self.sourceType];

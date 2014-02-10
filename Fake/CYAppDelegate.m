@@ -9,14 +9,27 @@
 #import "CYAppDelegate.h"
 #import "CYcallInIngViewController.h"
 #import "CYViewController.h"
+#import "MobClick.h"
+
 @implementation CYAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
-//    UIStoryboard *stryBoard=[UIStoryboard storyboardWithName:@"Main" bundle:nil];
-//    self.window.rootViewController=[stryBoard instantiateInitialViewController];
-//
+
+    //设置默认的统计功能
+    [MobClick startWithAppkey:@"52e0a04356240b497d07c356"];
+    if ([[[NSUserDefaults standardUserDefaults]stringForKey:@"NotFrist"] isEqualToString:@"YES"])
+    {
+
+    }
+    else
+    {
+        UIStoryboard *storyBoard=[UIStoryboard storyboardWithName:@"Main" bundle:nil];
+        self.window.rootViewController = [storyBoard instantiateViewControllerWithIdentifier:@"StartPage"];
+
+    }
+    
 
     return YES;
 }

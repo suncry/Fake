@@ -38,8 +38,16 @@
 
 - (void)viewDidLoad
 {
+    
     [super viewDidLoad];
 	// Do any additional setup after loading the view.
+    if ([self.view bounds].size.height < 568)
+    {
+        [backgroundImgView setImage:[UIImage imageNamed:@"001(960)"]];
+    }
+
+    
+    
     //计时
     [NSTimer scheduledTimerWithTimeInterval:1.0 target:self selector:@selector(showTime) userInfo:nil repeats:YES];
 
